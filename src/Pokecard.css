@@ -9,5 +9,29 @@
 }
 
 .Pokecard-data {
-  font-size: 90%;
+  font-size: 110%;
+  text-transform: capitalize;
+}
+
+.Pokecard-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 1rem;
+}
+.Pokecard img {
+  transition: all ease 500ms;
+}
+
+.Pokecard img:hover {
+  transform: scale(1.25);
+  opacity: 0.8;
+}
+
+.Pokecard-title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
